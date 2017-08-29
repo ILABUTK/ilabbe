@@ -76,7 +76,7 @@ Thanks to the _barryvdh/laravel-cors_ package, you can handle CORS easily. Just 
 
 I currently made this project for personal purposes. I decided to share it here to help anyone with the same needs. If you have any feedback to improve it, feel free to make a suggestion, or open a PR!
 
-##XP
+## XP's Notes
 https://github.com/francescomalatesta/laravel-api-boilerplate-jwt
 
 $composer create-project francescomalatesta/laravel-api-boilerplate-jwt ilabbe
