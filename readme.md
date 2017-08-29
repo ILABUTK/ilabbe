@@ -81,15 +81,18 @@ https://github.com/francescomalatesta/laravel-api-boilerplate-jwt
 
 $composer create-project francescomalatesta/laravel-api-boilerplate-jwt ilabbe
 > configure .env, database etc.
-$composer install
+> $composer install
 
-Or simply git clone
+Or simply git clone. 
 
 * use Postman to test
+
+> Unsecured api call
 > http://ilabbe.dev/api/hello
 
+> Secured calls
 > http://ilabbe.dev/api/auth/signup
-xp xp@xp.com 123456
+>> xp xp@xp.com 123456
 > http://ilabbe.dev/api/auth/login
 > http://ilabbe.dev/api/protected  (get, Authorization "bear TOKEN")
 
