@@ -29,6 +29,12 @@ $api->version('v1', function (Router $api) {
                 ]);
             }
         ]);
+
+        $api->get('shello', function() {
+            return response()->json([
+                'message' => 'Secured hello!'
+            ]);
+        });
     });
 
     $api->get('hello', function() {
